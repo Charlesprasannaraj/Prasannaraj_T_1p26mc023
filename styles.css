@@ -1,0 +1,986 @@
+/* Shared base styles: index.html, marine-life.html, dolphins.html */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  border-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+}
+
+/* Styles for index.html */
+body.home-page {
+  margin: 0;
+  padding: 26px 14px;
+  color: #26343b;
+  background: #fff;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 13px;
+}
+
+body.home-page .browser-page {
+  width: 760px;
+  margin: 0 auto;
+  padding: 10px;
+  background: #edf3f4;
+  border: 1px solid #9eafb4;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+}
+
+body.home-page .masthead {
+  min-height: 86px;
+  padding: 13px 20px 9px;
+  color: #fff;
+  background: linear-gradient(100deg, #003b50 0%, #087e91 48%, #73c8c8 76%, #07566b 100%);
+}
+
+body.home-page .brand {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 29px;
+  font-weight: 800;
+  letter-spacing: .4px;
+  line-height: 1.15;
+}
+
+body.home-page .tagline {
+  margin: 7px 0 0 8px;
+  color: #e8ffff;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .3px;
+}
+
+body.home-page .nav-bar {
+  background: #102e39;
+}
+
+body.home-page .nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body.home-page .nav-bar .nav-item {
+  flex: 1 1 0;
+  min-width: 0;
+  text-align: center;
+  border-right: 1px solid #55717a;
+}
+
+body.home-page .nav-bar .nav-item:last-child {
+  border-right: 0;
+}
+
+body.home-page .nav-bar .nav-link {
+  display: block;
+  padding: 10px 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+body.home-page .nav-bar .nav-link:hover,
+body.home-page .nav-bar .nav-link:focus {
+  color: #fff;
+  background: #087e91;
+}
+
+body.home-page .main-layout {
+  display: flex;
+  min-height: 360px;
+  padding: 17px 16px 13px;
+  background: #fff;
+}
+
+body.home-page .article {
+  flex: 0 0 75%;
+  width: 75%;
+  padding-right: 20px;
+}
+
+body.home-page .article h1 {
+  margin: 0 0 10px;
+  color: #07566b;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+body.home-page .article h2 {
+  margin: 12px 0 6px;
+  color: #087e91;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+body.home-page .article p {
+  margin: 0 0 8px;
+  font-size: 12px;
+  line-height: 1.48;
+  text-align: left;
+}
+
+body.home-page .feature-image {
+  float: left;
+  width: 230px;
+  height: 158px;
+  margin: 0 14px 8px 0;
+  object-fit: cover;
+  border: 1px solid #b7c9cd;
+  padding: 2px;
+  background: #fff;
+}
+
+body.home-page .sidebar {
+  flex: 0 0 25%;
+  width: 25%;
+  padding: 8px 4px 0 14px;
+  border-left: 1px solid #d7e4e6;
+}
+
+body.home-page .sidebar h2 {
+  margin: 0 0 8px;
+  color: #31525d;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+body.home-page .sidebar ul {
+  margin: 0;
+  padding-left: 20px;
+  line-height: 1.65;
+}
+
+body.home-page .sidebar a {
+  color: #087e91;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+body.home-page .sidebar a:hover {
+  color: #003b50;
+}
+
+body.home-page .site-footer {
+  min-height: 34px;
+  padding: 10px 16px;
+  color: #fff;
+  background: linear-gradient(100deg, #003b50 0%, #087e91 48%, #73c8c8 76%, #07566b 100%);
+  font-size: 11px;
+}
+
+/* Styles for marine-life.html */
+body.marine-page {
+  margin: 0;
+  padding: 24px 12px;
+  color: #26343b;
+  background: #fff;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 13px;
+}
+
+body.marine-page .browser-page {
+  width: 760px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 9px;
+  background: #edf2f3;
+  border: 1px solid #9baeb3;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+}
+
+body.marine-page .masthead {
+  min-height: 78px;
+  padding: 12px 18px 8px;
+  color: #fff;
+  background: linear-gradient(100deg, #003b50 0%, #087e91 48%, #8bd1d1 76%, #07566b 100%);
+}
+
+body.marine-page .brand {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+body.marine-page .tagline {
+  margin: 6px 0 0 48px;
+  color: #efffff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+body.marine-page .nav-bar {
+  padding: 0;
+  background: #101c20;
+}
+
+body.marine-page .nav-toggle,
+body.marine-page .menu-toggle {
+  display: none;
+}
+
+body.marine-page .nav-bar .navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+body.marine-page .nav-bar .nav-item {
+  flex: 1 1 0;
+  min-width: 0;
+  text-align: center;
+  border-right: 1px solid #65747a;
+}
+
+body.marine-page .nav-bar .nav-item:last-child {
+  border-right: 0;
+}
+
+body.marine-page .nav-bar .nav-link {
+  padding: 9px 3px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+body.marine-page .nav-bar .nav-link:hover {
+  color: #fff;
+  background: #087e91;
+}
+
+body.marine-page .content-layout {
+  min-height: 340px;
+  padding: 14px 12px 12px;
+  background: #fff;
+}
+
+body.marine-page .sidebar {
+  padding: 4px 10px 0 2px;
+  border-right: 1px solid #d8e3e5;
+}
+
+body.marine-page .sidebar h2 {
+  margin: 0 0 9px;
+  color: #40545b;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+body.marine-page .place-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+body.marine-page .place-list li {
+  margin-bottom: 8px;
+}
+
+body.marine-page .place-list a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #08778a;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+body.marine-page .place-list img {
+  width: 48px;
+  height: 35px;
+  flex: 0 0 48px;
+  object-fit: cover;
+  border: 1px solid #b9c7ca;
+  padding: 1px;
+}
+
+body.marine-page .article {
+  padding: 0 2px 0 14px;
+}
+
+body.marine-page .article h1 {
+  margin: 0 0 9px;
+  color: #07566b;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+body.marine-page .article-primary h2 {
+  margin: 4px 0 6px;
+  color: #40545b;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+body.marine-page .article p {
+  margin: 0 0 7px;
+  font-size: 11px;
+  line-height: 1.42;
+  text-align: left;
+}
+
+body.marine-page .article-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+
+body.marine-page .feature-figure {
+  margin: 0;
+}
+
+body.marine-page .feature-image {
+  display: block;
+  width: 100%;
+  height: 132px;
+  padding: 2px;
+  object-fit: cover;
+  border: 1px solid #b9c7ca;
+  background: #fff;
+}
+
+body.marine-page .site-footer {
+  min-height: 32px;
+  padding: 9px 14px;
+  color: #fff;
+  background: linear-gradient(100deg, #003b50 0%, #087e91 48%, #8bd1d1 76%, #07566b 100%);
+  font-size: 10px;
+}
+
+@media (max-width: 767.98px) {
+  body.marine-page {
+    padding: 12px 8px;
+  }
+
+  body.marine-page .browser-page {
+    width: 100%;
+    padding: 7px;
+  }
+
+  body.marine-page .masthead {
+    min-height: 68px;
+    padding: 10px 13px 7px;
+  }
+
+  body.marine-page .brand {
+    font-size: 24px;
+  }
+
+  body.marine-page .tagline {
+    margin-left: 35px;
+    font-size: 10px;
+  }
+
+  body.marine-page .content-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    padding: 11px 8px;
+  }
+
+  body.marine-page .sidebar,
+  body.marine-page .article {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body.marine-page .article {
+    order: 1;
+  }
+
+  body.marine-page .sidebar {
+    order: 2;
+    padding: 10px 0 0;
+    border-top: 1px solid #d8e3e5;
+    border-right: 0;
+  }
+
+  body.marine-page .sidebar h2 {
+    font-size: 11px;
+    margin-bottom: 7px;
+  }
+
+  body.marine-page .place-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px 10px;
+  }
+
+  body.marine-page .place-list li {
+    margin-bottom: 0;
+  }
+
+  body.marine-page .place-list a {
+    gap: 4px;
+    font-size: 9px;
+  }
+
+  body.marine-page .place-list img {
+    width: 38px;
+    height: 29px;
+    flex-basis: 38px;
+  }
+
+  body.marine-page .article {
+    padding-left: 9px;
+  }
+
+  body.marine-page .article h1 {
+    font-size: 17px;
+    margin-bottom: 7px;
+  }
+
+  body.marine-page .article p {
+    font-size: 10px;
+    line-height: 1.34;
+    margin-bottom: 6px;
+  }
+
+  body.marine-page .article-columns {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 7px;
+  }
+
+  body.marine-page .feature-image {
+    height: 112px;
+  }
+
+  body.marine-page .nav-bar .nav-link {
+    padding: 8px 1px;
+    font-size: 9px;
+  }
+
+  body.marine-page .nav-toggle {
+    display: block;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+
+  body.marine-page .menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 74px;
+    margin: 4px 0 4px auto;
+    padding: 5px 7px;
+    color: #fff;
+    background: #101c20;
+    border: 1px solid #65747a;
+    border-radius: 2px;
+    font-size: 9px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  body.marine-page .nav-toggle:focus-visible + .menu-toggle {
+    outline: 2px solid #8bd1d1;
+    outline-offset: 2px;
+  }
+
+  body.marine-page .nav-bar .navbar-nav {
+    display: none;
+    flex-direction: column;
+  }
+
+  body.marine-page .nav-toggle:checked ~ .navbar-nav {
+    display: flex;
+  }
+
+  body.marine-page .nav-bar .nav-item {
+    border-right: 0;
+    border-top: 1px solid #65747a;
+  }
+}
+
+@media (max-width: 480px) {
+  body.marine-page .browser-page {
+    padding: 5px;
+  }
+
+  body.marine-page .masthead {
+    min-height: 62px;
+  }
+
+  body.marine-page .brand {
+    font-size: 22px;
+  }
+
+  body.marine-page .tagline {
+    margin-top: 4px;
+    margin-left: 25px;
+    font-size: 9px;
+  }
+
+  body.marine-page .nav-bar .nav-link {
+    font-size: 8px;
+    padding: 8px 1px;
+  }
+
+  body.marine-page .content-layout {
+    padding: 9px 6px;
+  }
+
+  body.marine-page .sidebar {
+    padding-top: 9px;
+  }
+
+  body.marine-page .sidebar h2 {
+    font-size: 10px;
+  }
+
+  body.marine-page .place-list a {
+    display: flex;
+    font-size: 8px;
+    overflow-wrap: anywhere;
+  }
+
+  body.marine-page .place-list img {
+    width: 38px;
+    height: 29px;
+    flex-basis: 38px;
+  }
+
+  body.marine-page .place-list {
+    grid-template-columns: 1fr;
+  }
+
+  body.marine-page .place-list li {
+    margin-bottom: 0;
+  }
+
+  body.marine-page .article {
+    padding-left: 7px;
+  }
+
+  body.marine-page .article h1 {
+    font-size: 15px;
+  }
+
+  body.marine-page .article p {
+    font-size: 9px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+  }
+
+  body.marine-page .article-columns {
+    display: block;
+  }
+
+  body.marine-page .feature-image {
+    height: auto;
+    aspect-ratio: 3 / 2;
+    margin-bottom: 7px;
+  }
+}
+
+/* Styles for dolphins.html */
+body.dolphins-page {
+  margin: 0;
+  padding: 24px 12px;
+  color: #26343b;
+  background: #fff;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 13px;
+}
+
+body.dolphins-page .browser-page {
+  width: 760px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 9px;
+  background: #edf2f3;
+  border: 1px solid #9baeb3;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .2);
+}
+
+body.dolphins-page .masthead {
+  min-height: 78px;
+  padding: 12px 18px 8px;
+  color: #fff;
+  background: linear-gradient(100deg, #003b50 0%, #087e91 48%, #8bd1d1 76%, #07566b 100%);
+}
+
+body.dolphins-page .brand {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+body.dolphins-page .tagline {
+  margin: 6px 0 0 48px;
+  color: #efffff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+body.dolphins-page .nav-bar {
+  padding: 0;
+  background: #101c20;
+}
+
+body.dolphins-page .nav-bar .navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+body.dolphins-page .nav-bar .nav-item {
+  flex: 1 1 0;
+  min-width: 0;
+  text-align: center;
+  border-right: 1px solid #65747a;
+}
+
+body.dolphins-page .nav-bar .nav-item:last-child {
+  border-right: 0;
+}
+
+body.dolphins-page .nav-bar .nav-link {
+  padding: 9px 3px;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+body.dolphins-page .nav-bar .nav-link:hover {
+  color: #fff;
+  background: #087e91;
+}
+
+body.dolphins-page .page-content {
+  min-height: 370px;
+  padding: 14px 12px;
+  background: #fff;
+}
+
+body.dolphins-page .sidebar {
+  padding: 4px 12px 0 2px;
+  border-right: 1px solid #d8e3e5;
+}
+
+body.dolphins-page .sidebar h2 {
+  margin: 0 0 6px;
+  color: #40545b;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+body.dolphins-page .side-heading {
+  margin-top: 18px !important;
+}
+
+body.dolphins-page .sidebar ul {
+  margin: 0;
+  padding-left: 17px;
+  line-height: 1.65;
+}
+
+body.dolphins-page .sidebar a {
+  color: #08778a;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+body.dolphins-page .main-section {
+  padding: 0 2px 0 14px;
+}
+
+body.dolphins-page .main-section h1 {
+  margin: 0 0 9px;
+  color: #07566b;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+}
+
+body.dolphins-page .gallery-section {
+  width: 88%;
+  max-width: 430px;
+  margin: 0 auto 14px;
+}
+
+body.dolphins-page .carousel-inner {
+  border: 1px solid #d1dcdf;
+  background: #eaf1f2;
+}
+
+body.dolphins-page .carousel-item img {
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+}
+
+body.dolphins-page .carousel-caption {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px 8px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, .65));
+}
+
+body.dolphins-page .carousel-caption h3 {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+body.dolphins-page .carousel-indicators {
+  margin-bottom: 5px;
+}
+
+body.dolphins-page .carousel-indicators [data-bs-target] {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+body.dolphins-page .article-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+body.dolphins-page .article-columns p {
+  margin: 0 0 8px;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+body.dolphins-page .audio-panel {
+  margin-top: 9px;
+  padding: 9px 10px;
+  background: #f0f8f8;
+  border-left: 3px solid #087e91;
+}
+
+body.dolphins-page .audio-panel h2 {
+  margin: 0 0 4px;
+  color: #07566b;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+body.dolphins-page .audio-panel p {
+  margin: 0 0 5px;
+  font-size: 10px;
+}
+
+body.dolphins-page .audio-panel audio {
+  width: 100%;
+  height: 32px;
+}
+
+body.dolphins-page .audio-panel .pdf-link {
+  margin: 6px 0 0;
+}
+
+body.dolphins-page .audio-panel a {
+  color: #08778a;
+  font-weight: 700;
+}
+
+body.dolphins-page .site-footer {
+  min-height: 32px;
+  padding: 9px 14px;
+  color: #fff;
+  background: linear-gradient(100deg, #003b50 0%, #087e91 48%, #8bd1d1 76%, #07566b 100%);
+  font-size: 10px;
+}
+
+@media (max-width: 767.98px) {
+  body.dolphins-page {
+    padding: 12px 8px;
+  }
+
+  body.dolphins-page .browser-page {
+    width: 100%;
+    padding: 7px;
+  }
+
+  body.dolphins-page .masthead {
+    min-height: 68px;
+    padding: 10px 13px 7px;
+  }
+
+  body.dolphins-page .brand {
+    font-size: 24px;
+  }
+
+  body.dolphins-page .tagline {
+    margin-left: 35px;
+    font-size: 10px;
+  }
+
+  body.dolphins-page .page-content {
+    min-height: 0;
+    padding: 11px 8px;
+  }
+
+  body.dolphins-page .sidebar {
+    padding-right: 7px;
+  }
+
+  body.dolphins-page .sidebar h2 {
+    font-size: 11px;
+  }
+
+  body.dolphins-page .sidebar ul {
+    padding-left: 14px;
+    line-height: 1.55;
+  }
+
+  body.dolphins-page .sidebar a {
+    font-size: 9px;
+  }
+
+  body.dolphins-page .side-heading {
+    margin-top: 13px !important;
+  }
+
+  body.dolphins-page .main-section {
+    padding-left: 9px;
+  }
+
+  body.dolphins-page .main-section h1 {
+    font-size: 17px;
+  }
+
+  body.dolphins-page .gallery-section {
+    width: 96%;
+    margin-bottom: 11px;
+  }
+
+  body.dolphins-page .carousel-item img {
+    height: 125px;
+  }
+
+  body.dolphins-page .article-columns {
+    gap: 8px;
+  }
+
+  body.dolphins-page .article-columns p {
+    font-size: 9px;
+    line-height: 1.32;
+  }
+
+  body.dolphins-page .nav-bar .nav-link {
+    padding: 8px 1px;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 480px) {
+  body.dolphins-page .browser-page {
+    padding: 5px;
+  }
+
+  body.dolphins-page .masthead {
+    min-height: 62px;
+  }
+
+  body.dolphins-page .brand {
+    font-size: 21px;
+  }
+
+  body.dolphins-page .tagline {
+    margin: 4px 0 0 20px;
+    font-size: 9px;
+  }
+
+  body.dolphins-page .nav-bar .nav-link {
+    padding: 8px 1px;
+    font-size: 8px;
+  }
+
+  body.dolphins-page .page-content {
+    padding: 9px 6px;
+  }
+
+  body.dolphins-page .sidebar {
+    padding-right: 5px;
+  }
+
+  body.dolphins-page .sidebar h2 {
+    font-size: 10px;
+  }
+
+  body.dolphins-page .sidebar ul {
+    padding-left: 12px;
+    line-height: 1.45;
+  }
+
+  body.dolphins-page .sidebar a {
+    font-size: 8px;
+    overflow-wrap: anywhere;
+  }
+
+  body.dolphins-page .main-section {
+    padding-left: 7px;
+  }
+
+  body.dolphins-page .main-section h1 {
+    font-size: 15px;
+  }
+
+  body.dolphins-page .gallery-section {
+    width: 100%;
+  }
+
+  body.dolphins-page .carousel-item img {
+    height: 100px;
+  }
+
+  body.dolphins-page .carousel-caption h3 {
+    font-size: 10px;
+  }
+
+  body.dolphins-page .article-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  body.dolphins-page .article-columns p {
+    font-size: 9px;
+  }
+
+  body.dolphins-page .audio-panel {
+    padding: 7px;
+  }
+
+  body.dolphins-page .audio-panel h2 {
+    font-size: 11px;
+  }
+
+  body.dolphins-page .audio-panel p {
+    font-size: 9px;
+  }
+}
